@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,30 +12,30 @@
         <label> Ingrese la cantidad</label>
         <input id="cantidad">
         <button id=btnCalcular> calcular </button>
-
+​
         <br> <br> Convertir de:
-        <select id=de onchange="convertir()">  
-            <option value="1">Dolar</option>
-            <option value="2">Peso Mexicano</option>
-            <option value="3">Peso Colombiano</option>
-            <option value="4">Euro</option>
-            <option value="5">Libra Esterlina</option>         
+        <select id="de" name="de">  
+            <option value="1" name="de">Dolar</option>
+            <option value="2" name="de">Peso Mexicano</option>
+            <option value="3" name="de">Peso Colombiano</option>
+            <option value="4" name="de">Euro</option>
+            <option value="5" name="de">Libra Esterlina</option>         
         </select>
-
+​
         <br> <br> Convertir a: 
-        <select id=a onchange="convertir()"> 
-            <option value="1">Dolar</option>
-            <option value="2">Peso Mexicano</option>
-            <option value="3">Peso Colombiano</option>
-            <option value="4">Euro</option>
-            <option value="5">Libra Esterlina</option>         
+        <select id="a" >
+            <option value="1" name="a">Dolar</option>
+            <option value="2" name="a">Peso Mexicano</option>
+            <option value="3" name="a">Peso Colombiano</option>
+            <option value="4" name="a">Euro</option>
+            <option value="5" name="a">Libra Esterlina</option>   
         </select>
         
         <h1 id='Resultado'> $0.00 </h1>
-
+​
     </form>
-
-    <script src="index.js"></script>
+​
+    <script src="./index.js"></script>
     </center>
 </body>
 </html>
