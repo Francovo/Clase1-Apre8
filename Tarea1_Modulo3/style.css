@@ -1,3 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    color: var(--color-letra);
+}
+
+:root{
+    --color-letra: #fff;
+}
+
+
+
 body{
-    background-color: dimgray;
+    background-image: url('/Imagen/21599.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+form{
+    margin: 100;
+}
+
+#titulo{
+
+    color: white;
+    width: 23%;
+
+}
+
+label{
+    margin-right: 1%;
+    border: 1 pink;
+}
+
+input{
+    border: 50 pink;
+    padding: 0%;
+    background-color: black;
+}
+
+#btnCalcular{
+    color: black;
+}
+
+#de{
+    color: white;
+    background-color: black;
+    margin-top: 2%;
+}
+
+#a{
+    color: var(--color-letra);
+    background-color: black;
+    margin-top: 2%;
+}
+
+#resultado{
+    margin-top: 10%;
+    border-color: white;
 }
