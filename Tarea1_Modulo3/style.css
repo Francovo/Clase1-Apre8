@@ -24,6 +24,7 @@ form{
 
 #titulo{
 
+    margin-top: 10%;
     color: white;
     width: 23%;
 
@@ -47,7 +48,7 @@ input{
 #de{
     color: white;
     background-color: black;
-    margin-top: 2%;
+    margin-top: 4%;
 }
 
 #a{
@@ -57,6 +58,17 @@ input{
 }
 
 #resultado{
+    
     margin-top: 10%;
-    border-color: white;
+    border-color: black;
+    border:solid;
+    width: 50%;
+    background-color: pink;
+    color: black;
+}
+
+form{
+    border: solid;
+    background-color: rgb(177, 126, 192,0.2);
+
 }
